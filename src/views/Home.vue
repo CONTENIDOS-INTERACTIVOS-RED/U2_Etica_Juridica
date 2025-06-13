@@ -22,9 +22,9 @@
             .content-wrapper.px-lg-4.pt-lg-4.px-xxl-5.py-xxl-5.text-start
               p.home-main-title UNIDAD {{ `${globalData.numeroUnidad}` }}
               h1.home-title.mb-4 {{ globalData.tituloUnidad }}
-              p.descripcion.mb-4 Desde los orígenes de la civilización, la reflexión sobre lo correcto y lo justo ha sido fundamental para la construcción de una sociedad armoniosa. En esta unidad, se profundiza en los conceptos de ética y moral, sus raíces filosóficas y su aplicación en el ejercicio del Derecho. A través del análisis del Decálogo del Abogado, se busca formar profesionales íntegros, comprometidos con la justicia, la responsabilidad y los valores que sustentan la profesión jurídica.
+              p.descripcion.mb-4 Desde los orígenes de la filosofía, distintas corrientes éticas han intentado responder qué es lo justo y cómo debe actuar el ser humano frente a los demás. En esta unidad, se estudiarán las principales teorías morales y su aplicación en el ejercicio del Derecho, explorando las virtudes que deben guiar la actuación del abogado, los principios éticos que sustentan la profesión y los valores que fortalecen su compromiso con la justicia.
               
-              p #[b ¡Prepárese para ejercer el Derecho con ética, criterio y compromiso profesional!]
+              p #[b ¡Refuerce su criterio profesional y actúe con integridad en los desafíos del mundo jurídico!]
 
               .button-container.mt-auto
                 router-link.btn-iniciar.w-100.w-md-auto(:to="{ name: 'introduccion' }")
