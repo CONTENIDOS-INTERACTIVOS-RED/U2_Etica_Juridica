@@ -545,7 +545,27 @@
 
             p.d-flex.my-4
               img.me-3(src='@/assets/template/icono-yt.svg' :style="{'max-width':'16px'}")
-              a(href="https://youtu.be/QKLjwCMyv3M?si=uAWhO9tnyghljaJg" target="_blank" rel="noopener noreferrer") Innovación y sostenibilidad.
+              a(href="https://www.youtube.com/watch?v=Fy9TkHcMkSk" target="_blank" rel="noopener noreferrer") Etica Psicológica. (2019). La ética utilitarista: conflicto de principios éticos y utilitarismo - Teorías éticas
+
+            p.d-flex.my-4
+              img.me-3(src='@/assets/template/icono-yt.svg' :style="{'max-width':'16px'}")
+              a(href="https://www.youtube.com/watch?v=xO5ErzjQyPU" target="_blank" rel="noopener noreferrer") Cátedra Alfonso Reyes. (2014). FERNANDO SAVATER - Ética y ciudadanía (conferencia)
+
+            p.d-flex.my-4
+              img.me-3(src='@/assets/template/icono-yt.svg' :style="{'max-width':'16px'}")
+              a(href="https://www.youtube.com/watch?v=OmJlsrPXsPk" target="_blank" rel="noopener noreferrer") La repostería. (2021). Historia de la ética- Marx: la moral como ideología
+
+            p.d-flex.my-4
+              img.me-3(src='@/assets/template/icono-yt.svg' :style="{'max-width':'16px'}")
+              a(href="https://www.youtube.com/watch?v=Fy9TkHcMkSk" target="_blank" rel="noopener noreferrer") La repostería. (2020). Historia de la ética- Cirenaicos y epicúreos: el placer
+
+            p.d-flex.my-4
+              img.me-3(src='@/assets/template/icono-yt.svg' :style="{'max-width':'16px'}")
+              a(href="https://www.youtube.com/watch?v=KLOjzAWgfcg" target="_blank" rel="noopener noreferrer") La repostería. (2020). Historia de la ética-Aristóteles II: la virtud como término medio 
+
+            p.d-flex.my-4
+              img.me-3(src='@/assets/template/icono-yt.svg' :style="{'max-width':'16px'}")
+              a(href="https://www.youtube.com/watch?v=B20ErCDdG9Q" target="_blank" rel="noopener noreferrer") Etica Psicológica. (2019). La  ética deontológica: autonomía personal y política - Teorías éticas
 
           .col-12.col-md-6.col-lg-3.offset-lg-1
             figure

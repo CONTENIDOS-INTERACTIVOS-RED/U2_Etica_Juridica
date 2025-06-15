@@ -2,7 +2,7 @@
   .curso-main-container.creditos-vista
     BannerInterno(subTitulo="SÍNTESIS")
     .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-      p(data-aos="fade-up").mb-5 La Unidad 3: Bioética y sostenibilidad en el desarrollo económico global, establece los principios esenciales para comprender cómo los valores éticos y bioéticos pueden orientar el desarrollo económico hacia la sostenibilidad. Esta unidad proporciona una perspectiva integral sobre la relación entre la economía, el medio ambiente y los derechos humanos, destacando la importancia de prácticas responsables en contextos globalizados. Este enfoque asegura que los estudiantes adquieran una comprensión sólida de los desafíos éticos actuales y las estrategias sostenibles, permitiéndoles aplicar estas herramientas de manera efectiva en su formación profesional y en la vida cotidiana.
+      p(data-aos="fade-up").mb-5 La Unidad 2: Tipos de ética - Práctica del abogado, permite al estudiante explorar las principales corrientes filosóficas que han dado forma al pensamiento ético, así como su aplicación en el ámbito jurídico. A través del análisis de escuelas como el estoicismo, el epicureísmo, el utilitarismo, la ética kantiana, marxista y cristiana, esta unidad ofrece una visión integral de los principios que orientan la conducta profesional del abogado. Esta aproximación fomenta una reflexión crítica sobre la identidad profesional, el compromiso con la justicia y la responsabilidad social del jurista, en contextos éticamente complejos.
 
       .row.justify-content-center
         .col-lg-12.mb-5

@@ -207,7 +207,7 @@
 
           p En algunas ocasiones, el derecho enfrenta dilemas axiológicos, es decir, conflictos entre valores igualmente importantes. Algunos ejemplos incluyen:
 
-          .row.justify-content-center.align-items-stretch.mb-5
+          .row.justify-content-center.align-items-stretch
             .col-lg-4.mb-4(data-aos="zoom-in-up")
               .custom-image-card-2.h-100
                 img.custom-image-card__image(src="@/assets/curso/tema2/13.png" alt="")
@@ -325,7 +325,11 @@
 
 
       
-
+      .bg-full-width.border-top.actividad.bg-color-actividad
+        .p-4.p-md-5
+          #Actividad                
+            <Actividad :cuestionario="cuestionario"/>
+            
       .bg-full-width.border-top.color-primario
         .p-4.p-md-5
           h2(data-aos="fade-left") MATERIAL COMPLEMENTARIO
@@ -352,8 +356,202 @@
   </template>
 
 <script>
+import Actividad from '@/components/actividad/Actividad.vue'
 export default {
   name: 'Tema2',
+  components: {
+    Actividad,
+  },
+  data() {
+    return {
+      cuestionario: {
+        tema: 'Herramientas colaborativas para la construcción de paz',
+        titulo: 'Ponte a prueba',
+        introduccion:
+          'Demuestra lo que aprendiste en esta unidad y pon a prueba tus conocimientos.',
+        barajarPreguntas: true,
+        preguntas: [
+          {
+            id: 1,
+            texto:
+              '¿Cuál de las siguientes afirmaciones refleja mejor el principio fundamental de la ética deontológica?',
+            imagen: '',
+            barajarRespuestas: true,
+            opciones: [
+              {
+                id: 'a',
+                texto:
+                  'Las acciones son correctas si producen el mayor bienestar para el mayor número de personas.',
+                esCorrecta: false,
+              },
+              {
+                id: 'b',
+                texto:
+                  'Lo moralmente correcto depende de las consecuencias de cada acción.',
+                esCorrecta: false,
+              },
+              {
+                id: 'c',
+                texto:
+                  'Una acción es moralmente correcta si se realiza por deber, conforme a una norma moral universal.',
+                esCorrecta: true,
+              },
+              {
+                id: 'd',
+                texto:
+                  'El fin justifica los medios cuando su meta es lograr un bien mayor.',
+                esCorrecta: false,
+              },
+            ],
+            mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+            mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          },
+          {
+            id: 2,
+            texto:
+              '¿Cuál de las siguientes opciones expresa correctamente el principio central del utilitarismo?',
+            imagen: '',
+            barajarRespuestas: true,
+            opciones: [
+              {
+                id: 'a',
+                texto:
+                  'Una acción es correcta si cumple con un deber moral, sin importar sus consecuencias.',
+                esCorrecta: false,
+              },
+              {
+                id: 'b',
+                texto:
+                  'Una acción es correcta si promueve el mayor bienestar para el mayor número de personas.',
+                esCorrecta: true,
+              },
+              {
+                id: 'c',
+                texto:
+                  'Lo moral depende exclusivamente de las intenciones del agente.',
+                esCorrecta: false,
+              },
+              {
+                id: 'd',
+                texto:
+                  'Toda acción debe seguir una norma universal sin excepción.',
+                esCorrecta: false,
+              },
+            ],
+            mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+            mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          },
+          {
+            id: 3,
+            texto:
+              'Según la perspectiva de la ética marxista, ¿qué factor resulta fundamental para comprender los juicios morales?',
+            imagen: '',
+            barajarRespuestas: true,
+            opciones: [
+              {
+                id: 'a',
+                texto: 'La intención individual del sujeto que actúa.',
+                esCorrecta: false,
+              },
+              {
+                id: 'b',
+                texto:
+                  'La conformidad de la acción con una norma moral universal.',
+                esCorrecta: false,
+              },
+              {
+                id: 'c',
+                texto:
+                  'Las condiciones materiales y las relaciones sociales de producción.',
+                esCorrecta: true,
+              },
+              {
+                id: 'd',
+                texto:
+                  'La búsqueda de la mayor felicidad para el mayor número de personas.',
+                esCorrecta: false,
+              },
+            ],
+            mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+            mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          },
+          {
+            id: 4,
+            texto:
+              '¿Cuál de los siguientes principios éticos debe guiar de manera fundamental la conducta profesional de un abogado?',
+            imagen: '',
+            barajarRespuestas: true,
+            opciones: [
+              {
+                id: 'a',
+                texto:
+                  'Buscar siempre el beneficio económico propio, incluso si entra en conflicto con el interés del cliente.',
+                esCorrecta: false,
+              },
+              {
+                id: 'b',
+                texto:
+                  'Garantizar la defensa leal del cliente, respetando la ley y los principios de justicia.',
+                esCorrecta: true,
+              },
+              {
+                id: 'c',
+                texto:
+                  'Defender al cliente por todos los medios posibles, incluso utilizando pruebas falsas.',
+                esCorrecta: false,
+              },
+              {
+                id: 'd',
+                texto:
+                  'Priorizar sus convicciones personales por encima de las normas jurídicas.',
+                esCorrecta: false,
+              },
+            ],
+            mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+            mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          },
+          {
+            id: 5,
+            texto:
+              '¿Cuál de los siguientes valores forma parte esencial de la axiología moral del abogado y debe guiar su actuación profesional?',
+            imagen: '',
+            barajarRespuestas: true,
+            opciones: [
+              {
+                id: 'a',
+                texto:
+                  'Astucia para aprovechar vacíos legales en beneficio propio.',
+                esCorrecta: false,
+              },
+              {
+                id: 'b',
+                texto: 'Imparcialidad al juzgar los casos de sus clientes.',
+                esCorrecta: false,
+              },
+              {
+                id: 'c',
+                texto:
+                  'Justicia, como valor central que orienta su compromiso con el Derecho.',
+                esCorrecta: true,
+              },
+              {
+                id: 'd',
+                texto:
+                  'Subordinación total a los intereses del cliente, sin importar los medios.',
+                esCorrecta: false,
+              },
+            ],
+            mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+            mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          },
+        ],
+        mensaje_final_aprobado:
+          '¡Felicidades! Has superado la prueba con éxito.',
+        mensaje_final_reprobado:
+          'Te recomendamos repasar nuevamente la unidad para reforzar los conceptos clave antes de volver a intentarlo.',
+      },
+    }
+  },
   mounted() {
     this.$nextTick(() => {
       this.$aosRefresh()
@@ -362,4 +560,7 @@ export default {
 }
 </script>
 
-<style lang="sass"></style>
+<style lang="sass">
+.bg-color-actividad
+  background-color: #EBF1F5
+</style>
