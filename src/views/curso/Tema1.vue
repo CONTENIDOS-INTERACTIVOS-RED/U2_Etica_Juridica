@@ -540,7 +540,7 @@
 
             p.d-flex.my-4
               img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              a(href="https://elibro.net/es/lc/tecnologicadeloriente/titulos/39401" target="_blank" rel="noopener noreferrer") Torres Hernández, Z. (2015). Introducción a la ética. Grupo Editorial Patria. 
+              a(href="https://elibro.net/es/lc/tecnologicadeloriente/titulos/79032" target="_blank" rel="noopener noreferrer") Divenosa, M. (2010). Filosofía para la formación ética y ciudadana I. Editorial Maipue.
 
 
             p.d-flex.my-4
