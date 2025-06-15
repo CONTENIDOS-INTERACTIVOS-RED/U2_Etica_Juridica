@@ -82,10 +82,6 @@
         figure
           img(src="@/assets/curso/intro/4.png", data-aos="zoom-in")
     
-          
-
-          
-    
-    
+              
 
 </template>
