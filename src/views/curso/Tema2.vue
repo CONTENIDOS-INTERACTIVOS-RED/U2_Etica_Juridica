@@ -250,7 +250,7 @@
 
 
       TabsC.color-acento-contenido.mb-5
-        .tabs-content.border.px-4.p-md-5.py-3(titulo="Título tab 1" :icon="require('@/assets/bullets/icon-tab-c-1.svg')" )
+        .tabs-content.border.px-4.p-md-5.py-3(titulo="Leyes contra la discriminación" :icon="require('@/assets/bullets/icon-tab-c-1.svg')" )
           .row
             .col-md-6.col-lg-7.col-xl-8.mb-4.mb-md-0.order-2
               h4 Leyes contra la discriminación
@@ -259,7 +259,7 @@
               figure(data-aos="zoom-in")
                 img(src='@/assets/curso/tema2/tab-1.png', alt='')
       
-        .tabs-content.border.px-4.p-md-5.py-3(titulo="Título tab 2" :icon="require('@/assets/bullets/icon-tab-c-1.svg')" )
+        .tabs-content.border.px-4.p-md-5.py-3(titulo="Normas sobre violencia doméstica" :icon="require('@/assets/bullets/icon-tab-c-1.svg')" )
           .row
             .col-md-6.col-lg-7.col-xl-8.mb-4.mb-md-0.order-2
               h4 Normas sobre violencia doméstica
@@ -343,7 +343,7 @@
   
               p.d-flex.my-4
                 img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-                a(href="http://www.scielo.org.co/scielo.php?script=sci_arttext&pid=S0120-38862021000200348" target="_blank" rel="noopener noreferrer") Faggioli, A. A., Fuentes Águila, M. R. & Castellanos Fuentes, P. E. (2021). Principios que rigen la actuación del abogado como auxiliar de la justicia en la prevención de la corrupción. Revista de la Facultad de Derecho y Ciencias Políticas, 51(135), 348-367.
+                a(href="https://revistas.upb.edu.co/index.php/derecho/article/view/7115/6650" target="_blank" rel="noopener noreferrer") Faggioli, A. A., Fuentes Águila, M. R. & Castellanos Fuentes, P. E. (2021). Principios que rigen la actuación del abogado como auxiliar de la justicia en la prevención de la corrupción. Revista de la Facultad de Derecho y Ciencias Políticas, 51(135), 348-367.
   
               p.d-flex.my-4
                 img.me-3(src='@/assets/template/icono-yt.svg' :style="{'max-width':'16px'}")

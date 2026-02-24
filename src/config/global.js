@@ -169,12 +169,6 @@ export default {
     },
     {
       referencia:
-        'Monroy Rueda, F. J. (2013). La formación moral cristiana en los grupos juveniles. Pontificia Universidad Javeriana.',
-      link:
-        'https://repository.javeriana.edu.co/it ems/e1e3650c-c9ca-48e6-ba5d-31486d1399f6',
-    },
-    {
-      referencia:
         'Esquivel Estrada, N. H. (2006). Ética cívica: Una alternativa más para la educación. Tiempo de educar, 7(13), 31-66.',
       link: 'http://www.redalyc.org/articulo.oa?id=31171303',
     },
@@ -188,7 +182,7 @@ export default {
       referencia:
         'Faggioli, A. A., Fuentes Águila, M. R. & Castellanos Fuentes, P. E. (2021). Principios que rigen la actuación del abogado como auxiliar de la justicia en la prevención de la corrupción. Revista de la Facultad de Derecho y Ciencias Políticas, 51(135), 348-367.',
       link:
-        'http://www.scielo.org.co/scielo.php?script=sci_arttext&pid=S0120-388620210002000348',
+        'https://revistas.upb.edu.co/index.php/derecho/article/view/7115/6650',
     },
   ],
   glosario: [
